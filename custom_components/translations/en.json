@@ -1,0 +1,38 @@
+{
+  "config_flow": {
+    "step": {
+      "user": {
+        "data": {
+          "name": "Room Name",
+          "device_id": "Device ID",
+          "temperature_in": "Indoor Temperature",
+          "humidity_in": "Indoor Humidity",
+          "temperature_out": "Outdoor Temperature",
+          "humidity_out": "Outdoor Humidity",
+          "status_text_good": "Text for Good Climate",
+          "status_text_ok": "Text for OK Climate",
+          "status_text_bad": "Text for Bad Climate",
+          "icon_good": "Icon for Good Climate",
+          "icon_ok": "Icon for OK Climate",
+          "icon_bad": "Icon for Bad Climate"
+        },
+        "title": "Raumklimamonitor Configuration",
+        "description": "Configure the settings for the room climate monitoring."
+      }
+    }
+  },
+  "status": {
+    "good": "Optimal Climate",
+    "ok": "Acceptable Climate",
+    "bad": "Unfavorable Climate",
+    "ventilation_recommendation": {
+      "good": "No ventilation required",
+      "ok": "Ventilation recommended",
+      "bad": "Ventilation urgently needed"
+    }
+  },
+  "climate": {
+    "temperature": "Temperature",
+    "humidity": "Humidity"
+  }
+}

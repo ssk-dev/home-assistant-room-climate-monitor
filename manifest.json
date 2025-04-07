@@ -1,0 +1,10 @@
+{
+  "domain": "home-assistant-room-climate-monitor",
+  "name": "Room Climate Monitor",
+  "version": "1.0.0",
+  "documentation": "https://github.com/ssk-dev/home-assistant-room-climate-monitor",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@ssk-dev"],
+  "config_flow": true
+}

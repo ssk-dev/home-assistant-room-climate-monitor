@@ -1,0 +1,38 @@
+{
+  "config_flow": {
+    "step": {
+      "user": {
+        "data": {
+          "name": "Name des Raums",
+          "device_id": "Geräte-ID",
+          "temperature_in": "Temperatur innen",
+          "humidity_in": "Luftfeuchtigkeit innen",
+          "temperature_out": "Temperatur außen",
+          "humidity_out": "Luftfeuchtigkeit außen",
+          "status_text_good": "Text für gutes Raumklima",
+          "status_text_ok": "Text für akzeptables Raumklima",
+          "status_text_bad": "Text für schlechtes Raumklima",
+          "icon_good": "Icon für gutes Raumklima",
+          "icon_ok": "Icon für akzeptables Raumklima",
+          "icon_bad": "Icon für schlechtes Raumklima"
+        },
+        "title": "Raumklimamonitor Konfiguration",
+        "description": "Konfigurieren Sie die Einstellungen für das Raumklima Monitoring."
+      }
+    }
+  },
+  "status": {
+    "good": "Optimales Raumklima",
+    "ok": "Akzeptables Raumklima",
+    "bad": "Ungünstiges Raumklima",
+    "ventilation_recommendation": {
+      "good": "Lüften nicht erforderlich",
+      "ok": "Lüften empfohlen",
+      "bad": "Lüften dringend empfohlen"
+    }
+  },
+  "climate": {
+    "temperature": "Temperatur",
+    "humidity": "Luftfeuchtigkeit"
+  }
+}
